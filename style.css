@@ -1,0 +1,29 @@
+    .paragraph {
+        color: forestgreen;
+        background-color: greenyellow;
+        text-align: center
+    }
+
+    h1 {
+        color: forestgreen;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .image {
+        height: 500px;
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+        color: forestgreen
+    }
+
+    body {
+            background-repeat:repeat;
+            background-size: 200px 130px;
+            background-image: url("LIMES!.webp");
+
+          }
