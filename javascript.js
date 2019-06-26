@@ -18,3 +18,21 @@ function convertMS(milliseconds) {
         seconds: seconds
     }
 }
+var d = convertMS(new Date - birthday)
+var age = "I am " + d.year + " years, " + d.day + " days, " + "and " + d.hour + " hours old."
+function swapcolor() {
+    var color = getRandomColor();
+    document.getElementById('text').style.color = color;
+    document.getElementById('heading').style.color = color;
+    document.getElementById('paragraph').style.color = color;
+    document.getElementById('link').style.color = color;
+    document.getElementById('under heading').style.color = color;
+}
+function getRandomColor() {
+    var letters = '123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color
+}
